@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.element::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #2F7B80;
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+
+#tabs1 {
+    height: 62px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border: 2px solid #2F7B80;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+#active-tabs {
+    height: 62px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border: 2px solid #2F7B80;
+    border-radius: 5px;
+    background-color: #2F7B80;
+    color: white
+}
+
+#content {
+    display: none;
+}
+
+#active-content {
+    display: block;
+}
+
+.background-img {
+    background-image: url('../src/Components/images/omborimg.jpg');
+}
+
+/* Swipper js */
+
+#app {
+    height: 100%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.active {
+    text-decoration-line: underline;
+}
+
+.swipper {
+    position: relative;
+}
+
+.nav-menu {
+    color: #2F7B80;
+}
+
+.x-menu{
+    color: white;
+}

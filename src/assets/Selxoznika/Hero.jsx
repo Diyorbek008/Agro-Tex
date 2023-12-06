@@ -13,7 +13,7 @@ const Hero = () => {
               <h2 className='w-full max-w-[859px] text-white font-inter text-5xl font-medium mb-[22px] max-450:text-3xl'>ПРОИЗВОДИМ СЕЛЬХОЗТЕХНИКУ:</h2>
               <p className='text-white font-inter text-2xl mb-[28px]'>Ангары, Бороны, Опрыскиватели, Сельхозтехника, Запчасти</p>
               <ul className='text-white font-inter text-2xl font-medium mb-[29px]'>
-                <li className='element relative pl-6'>
+                <li className='element relative pl-6 z-0'>
                   напрямую от производителя
                 </li>
                 <li className='element relative pl-6'>
